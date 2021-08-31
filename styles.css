@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    border: 2px red solid;
+    margin: 0;
+    padding: 0;
+}
+
+#login-side {
+    border: 2px yellow solid;
+    background-color: #0D0F12;
+    color: white;
+    width: 40%;
+    display: inline-block;
+}
+
+#free-trial-side {
+    display: inline-block;
+    background-color: #000000;
+    background-image: url("resources/bg-gtm-2020.png");
+    background-position: bottom right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60%;
+    position: relative;
+    left: 40%;
+    bottom: 230px;
+}
+
+#help svg {
+    height: 30px;
+    width: 30px;
+}
