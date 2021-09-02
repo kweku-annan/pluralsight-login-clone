@@ -18,6 +18,7 @@ body {
 #login-side {
     font-family: PS TT Commons Roman,Gotham SSm A,Gotham SSm B,Arial,sans-serif;
     margin: 0;
+    padding: 0;
     /* border: 2px yellow solid; */
     background-color: #0D0F12;
     color: white;
@@ -167,21 +168,43 @@ body {
 }
 
 #footer-section {
-    /* display: flex; */
-    /* flex-direction: column; */
+    font-weight: normal;
     font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#help svg {
-    height: 30px;
-    width: 30px;
+#copyright {
+    position: relative;
+    /* bottom: 100px; */
+    top: 35px;
+    left: 9px;
+}
+
+#privacy {
     display: inline-block;
-    margin-right: 40px;
-    position: sticky;
+    position: relative;
+    top: 40px;
+    left: 28%;
+}
+
+#privacy a {
+    color: white;
+}
+
+#privacy a:hover {
+    color: #006D93;
 }
 
 #help {
-    margin-right: 40px;
+    height: 25px;
+    width: 25px;
+    position: sticky;
+    margin-right: 450px;
+    padding-top: 10px;
+    /* display: flex; */
+    /* float: right; */
 }
 
 #free-trial-side {
