@@ -209,6 +209,7 @@ body {
 
 #free-trial-side {
     display: flex;
+    flex-direction: column;
     background-color: #000000;
     background-image: url("resources/bg-gtm-2020.png");
     background-position: bottom right;
@@ -219,6 +220,65 @@ body {
     float: right;
     color: white;
 }
+
+#trial-main {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#h1-image {
+    display: inline-block;
+    position: relative;
+    right: 250px;
+    top: 100px;
+}
+
+#h1-text {
+    font-size: 20px;
+    /* font-weight: bolder; */
+    display: inline-block;
+    width: 300px;
+    position: relative;
+    left: 80px;
+}
+
+#h1-text h1 {
+    font-weight: 800;
+    /* line-height: 100px; */
+}
+
+#try {
+    display: inline-block;
+    position: relative;
+    top: 170px;
+    right: 400px;
+}
+
+#try button {
+    color: white;
+    background-image: linear-gradient(to right, #F0552E, #ED1872, #F0552E);
+    width: 230.23px;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+    padding: 12px 80px;
+    border-radius: 2px;
+}
+
+#try button:hover {
+    cursor: pointer;
+}
+
+#build img{
+    height: 34.63px;
+    width: 150px;
+    position: relative;
+    left: 550px;
+    top: 250px;
+}
+
+
+
 
 
 
