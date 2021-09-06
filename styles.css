@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,6 +10,8 @@ body {
 
 .container {
     /* border: 2px red solid; */
+    display: flex;
+    flex-direction: row;
     margin: 0;
     padding: 0;
     background-color: #0D0F12;
@@ -168,6 +171,8 @@ body {
 }
 
 #footer-section {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.74);
     font-weight: normal;
     font-size: 12px;
     display: flex;
@@ -190,7 +195,7 @@ body {
 }
 
 #privacy a {
-    color: white;
+    color: rgba(255, 255, 255, 0.74);
 }
 
 #privacy a:hover {
@@ -212,7 +217,7 @@ body {
     flex-direction: column;
     background-color: #000000;
     background-image: url("resources/bg-gtm-2020.png");
-    background-position: bottom right;
+    background-position: right center;
     background-size: contain;
     background-repeat: no-repeat;
     width: 60%;
