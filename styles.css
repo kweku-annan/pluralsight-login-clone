@@ -1,9 +1,31 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 body {
     background-color: #0D0F12;
+    /* border: red 2px solid; */
+}
+
+#container {
+    border: 2px red solid;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.login-side {
+    font-family: PS TT Commons Roman,Gotham SSm A,Gotham SSm B,Arial,sans-serif;
+    border: 2px yellow solid;
+    color: white;
+    width: 40%;
+    display: inline-block;
+}
+
+#free-trial-side {
+    display: inline-block;
+    width: 59%;
+    background-color: #000000;
 }
