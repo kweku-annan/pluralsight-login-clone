@@ -1,14 +1,6 @@
 
 
-.container {
-    /* border: 2px red solid; */
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    padding: 0;
-    background-color: #0D0F12;
-    height: 100vh;
-}
+
 
 #login-side {
     font-family: PS TT Commons Roman,Gotham SSm A,Gotham SSm B,Arial,sans-serif;
