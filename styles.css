@@ -7,7 +7,7 @@ body {
     background-color: #0D0F12;
     font-family: PS TT Commons Roman, Gotham SSm A, Gotham SSm B, Arial, sans-serif;
     font-weight: 400;
-    line-height: 24px;
+    /* line-height: 14px; */
 }
 
 #container {
@@ -41,13 +41,15 @@ body {
     align-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .login-forms label {
     font-size: 16px;
     font-weight: 500;
 }
+
+/* I am finding it difficult to make the text input field responsive*/
 
 .input-text {
     width: 309.6px;
@@ -66,7 +68,7 @@ body {
 }
 
 .login-forms button {
-    width: 19.4em;
+    width: 100%;
     height: 40px;
     font-size: 16px;
     font-weight: 500;
@@ -109,6 +111,7 @@ body {
     font-size: 17px;
     color: #2ea0d6;
     margin-top: 20px;
+    margin-bottom: 10px;
     text-decoration: none;
 }
 
@@ -149,11 +152,112 @@ body {
     cursor: pointer;
 }
 
+#footer-section {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.74);
+    font-weight: normal;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.privacy {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.privacy a {
+    color: rgba(255, 255, 255, 0.74);
+}
+
+.privacy a:hover {
+    color: #006D93;
+}
+
+#help {
+    height: 25px;
+    width: 25px;
+    position: sticky;
+    bottom: 10px;
+    left: 30px;
+}
 
 
 #free-trial-side {
-    display: inline-block;
     width: 60%;
     background-color: #000000;
+    background-image: url("resources/bg-gtm-2020.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+    color: white;
+    align-items: center;
 }
 
+#trial-main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4.25em;
+    margin-left: 6.25em;
+}
+
+#h1-image {
+    display: inline-block;
+    width: fit-content;
+}
+
+#h1-text {
+    width: 400px;
+    font-weight: 920;
+    font-size: 1.56rem;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    top: 80px;
+}
+
+#h1-text h1 {
+    line-height: 55px;
+    display: inline-block;
+    font-weight: bolder;
+    /* line-height: 100px; */
+}
+
+#try {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+#try button {
+    color: white;
+    background-image: linear-gradient(to right, #F0552E, #ED1872, #F0552E);
+    width: 230.23px;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+    padding: 12px 80px;
+    border-radius: 2px;
+}
+
+#try button:hover {
+    cursor: pointer;
+}
+
+#build {
+    display: inline-block;
+    width: 150px;
+    position: relative;
+    top: 100px;
+    left: 520px
+}
+
+#build img {
+    display: inline-block;
+    width: 100%;
+}
