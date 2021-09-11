@@ -209,7 +209,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 99%;  /* I don't know what I did but this is not working anymore*/
-
+    max-height: fit-content;
 }
 
 
